@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Remote Cheque Deposit</string>
+    <string name="app_title">Remote Cheque Deposit</string>
+    <string name="cheque">Deposit Cheque</string>
+    <string name="transfer">Make Transfer</string>
+
+    <string-array name="arrBanks">
+        <item>GT Bank</item>
+        <item>First Atlantic Bank</item>
+        <item>Ecobank Ghana</item>
+        <item>GCB Bank Limited</item>
+        <item>GN Bank Limited </item>
+        <item>Stanbic Bank Ghana Ltd.</item>
+        <item>Accra Central, Central Business District </item>
+        <item>Kantamanto, Tarzan House </item>
+        <item>Max Mart, 1st Floor Maxmart Building </item>
+        <item>Abossey Okai, Korle Bu Road</item>
+        <item>Osu Oxford Street, Opposite KFC Restaurant</item>
+        <item>Abeka Lapaz, Fraga Oil Premises</item>
+        <item>Tema Community 1, Efua Halam House Tema</item>
+        <item>Tema Harbour Road, Plot# B12 &amp; 13 Harbour Area </item>
+        <item>Nhyiaeso, No. 7 Ellis Avenue</item>
+        <item>Suame, Suame Magazine</item>
+    </string-array>
+</resources>
