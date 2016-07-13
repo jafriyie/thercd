@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/transactions_list_background"
+    android:orientation="horizontal"
+    android:paddingBottom="8dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="8dp"
+    android:weightSum="2">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:gravity="left"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="5dp"
+                android:gravity="left"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="Transaction ID"
+                android:textColor="#939393"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/etTransCardList_TransId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="4dp"
+                android:gravity="left"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:textColor="#5E5E5E"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="5dp"
+                android:gravity="left"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="Deposit Into"
+                android:textColor="#939393"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/etTransCardList_RecipientAC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="4dp"
+                android:gravity="left"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:textColor="#5E5E5E"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="5dp"
+                android:gravity="left"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="Payment Date"
+                android:textColor="#939393"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/etTransCardList_PaymentDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="4dp"
+                android:gravity="left"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:textColor="#5E5E5E"
+                android:textSize="17sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/layoutPaymentSection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/etTransCardList_PaymentAmountHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="5dp"
+                android:gravity="right"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="AMOUNT"
+                android:textColor="#545454"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/etTransCardList_PaymentAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="15dp"
+                android:gravity="right"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:textColor="#5E5E5E"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/etTransCardList_StatusHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="10dp"
+                android:gravity="right"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:text="Status"
+                android:textColor="#545454"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/etTransCardList_Status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="10dp"
+                android:gravity="right"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:textColor="#5E5E5E"
+                android:textSize="17sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+
